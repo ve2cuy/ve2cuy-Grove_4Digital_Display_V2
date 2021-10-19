@@ -1,4 +1,4 @@
-Grove_4Digital_Display V2 by VE2CUY  [![Build Status](https://travis-ci.com/Seeed-Studio/Grove_4Digital_Display.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Grove_4Digital_Display)
+Grove_4Digital_Display V2 by VE2CUY
 --------------------------------
 
 ![Grove_4Digital_Display](https://statics3.seeedstudio.com/images/product/4-Digital%20Display.jpg)
