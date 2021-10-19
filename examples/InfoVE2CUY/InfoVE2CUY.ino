@@ -1,6 +1,7 @@
 /*
-   Auteur:  Alain Boudreault, AKA VE2CUY
-   Date:    2021.10.19
+   Librairie:   TM1637V2, adapté à partir de https://github.com/Seeed-Studio/Grove_4Digital_Display/
+   Auteur:      Alain Boudreault, AKA VE2CUY
+   Date:        2021.10.19
    Description: Exemple d'utilisation de la méthode info()
 */
 
@@ -12,8 +13,9 @@ const int DIO = 7;
 TM1637V2 TM1637V2(CLK, DIO);
 
 void setup() {
+    Serial.begin(9600);
     TM1637V2.begin();  // Effacer l'écran. Méthode disponible seulement dans cette version.
-    TM1637V2.info();
+    Serial.println(TM1637V2.info());
 }
 
 void loop() {
