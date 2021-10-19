@@ -8,6 +8,7 @@ Grove_4Digital_Display V2 by VE2CUY
 Ajout des méthodes suivantes:
 
 info()
+
 begin()
     
 ----
