@@ -48,6 +48,9 @@
 #define BRIGHT_DARKEST 0
 #define BRIGHT_TYPICAL 2
 #define BRIGHTEST 7
+#define ECRAN_FAIBLE 0
+#define ECRAN_MOYEN 2
+#define ECRAN_FORT 7
 
 class TM1637V2 {
   public:
