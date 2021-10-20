@@ -10,6 +10,14 @@ Ajout des méthodes suivantes:
 info()
 
 begin()
+
+Ajout des macros:
+
+#define ECRAN_FAIBLE 0
+
+#define ECRAN_MOYEN 2
+
+#define ECRAN_FORT 7
     
 ----
 
