@@ -68,7 +68,7 @@ class TM1637V2 {
     void display(int8_t DispData[]);
     void display(uint8_t BitAddr, int8_t DispData);
     void displayNum(float num, int decimal = 0, bool show_minus = true);
-    void displayStr(char str[],  uint16_t loop_delay = 500);
+    void displayStr(const char str[],  uint16_t loop_delay = 500);
     void clearDisplay(void);
     void set(uint8_t = BRIGHT_TYPICAL, uint8_t = 0x40, uint8_t = 0xc0); //To take effect the next time it displays.
     void point(boolean
