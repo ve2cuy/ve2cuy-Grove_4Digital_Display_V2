@@ -23,7 +23,8 @@ Ajout des macros:
 
 ** Propose les méthodes suivantes:
 
-#displayStr(str, delay_ms = 0);
+displayStr(str, delay_ms = 0);
+
 #displayNum(PI, 2);
     
 ----
