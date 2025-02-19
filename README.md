@@ -19,10 +19,12 @@ Ajout des macros:
 
 #define ECRAN_FORT 7
 
-* Propose les méthodes suivantes:
+---
 
-# displayStr(str, delay_ms = 0);
-# displayNum(PI, 2);
+** Propose les méthodes suivantes:
+
+#displayStr(str, delay_ms = 0);
+#displayNum(PI, 2);
     
 ----
 
