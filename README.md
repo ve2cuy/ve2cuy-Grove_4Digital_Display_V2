@@ -5,7 +5,7 @@ Grove_4Digital_Display V2 by VE2CUY
 
 [Grove - 4-Digit Display](https://www.seeedstudio.com/Grove-4-Digit-Display-p-1198.html)
 
-Ajout des méthodes suivantes:
+### Ajout des méthodes suivantes:
 
 info()
 
@@ -21,11 +21,11 @@ Ajout des macros:
 
 ---
 
-** Propose les méthodes suivantes:
+### Propose les méthodes suivantes:
 
 displayStr(str, delay_ms = 0);
 
-#displayNum(PI, 2);
+displayNum(PI, 2);
     
 ----
 
