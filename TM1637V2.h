@@ -61,7 +61,7 @@ class TM1637V2 {
     TM1637V2(uint8_t, uint8_t);
     void init(void);               // To clear the display
     void begin(void);              // To clear the display - A.B.
-    char* TM1637V2::info(void);    // Retourne le nom de l'auteur
+    const char* info(void);    // Retourne le nom de l'auteur
     int writeByte(int8_t wr_data); // Write 8bit data to TM1637V2
     void start(void);              // Send start bits
     void stop(void);               // Send stop bits
