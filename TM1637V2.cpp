@@ -127,7 +127,7 @@ void TM1637V2::init(void) {
     clearDisplay();
 }
 
-char* TM1637V2::info(void) {
+const char* TM1637V2::info(void) {
     return "Librairie 4-Digit Display par VE2CUY";
 }
 
