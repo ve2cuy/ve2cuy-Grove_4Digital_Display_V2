@@ -261,7 +261,7 @@ void TM1637V2::displayNum(float num, int decimal, bool show_minus) {
     }
 }
 
-void TM1637V2::displayStr(char str[], uint16_t loop_delay) {
+void TM1637V2::displayStr(const char str[], uint16_t loop_delay) {
 		int end = strlen(str);
 		if(end <= DIGITS){
 			for (int i = 0; i < DIGITS; i++) {
