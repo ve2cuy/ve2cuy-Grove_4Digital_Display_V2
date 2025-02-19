@@ -31,7 +31,7 @@ displayNum(PI, 2);
 
 ### Exemple d'utilisation
 
-...
+```
 #include <Arduino.h>
 #include "TM1637V2.h"
 
@@ -47,6 +47,6 @@ void afunction(){
     tm1637.displayNum(PI, 2);
     tm1637.displayStr("Bonjour 420-1C4", 300);  // Afficher une message avec 'scroll' au besoin
 }
-...
+```
 
 Version originale de Frankie.Chu for [Seeed Technology Inc.](http://www.seeed.cc) and is licensed under [The MIT License](http://opensource.org/licenses/mit-license.php). Check License.txt/LICENSE for the details of MIT license. The TimerOne library is refered from the arduino community and its copyright follows the original.
